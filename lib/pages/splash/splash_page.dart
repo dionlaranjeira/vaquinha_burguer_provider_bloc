@@ -1,3 +1,4 @@
+import 'package:app_vaquinha_burguer_provider_bloc/core/ui/widgets/delivery_button.dart';
 import 'package:flutter/material.dart';
 
 class SplashPage extends StatefulWidget {
@@ -17,7 +18,7 @@ class _SplashPageState extends State<SplashPage> {
       body: Column(
         children: [
           Container(),
-          ElevatedButton(onPressed: () {}, child: const Text("Teste")),
+          DeliveryButton(label: 'Teste', onPressed: (){}, width: 200),
           TextFormField(
             decoration: const InputDecoration(labelText: 'text'),
           ),
