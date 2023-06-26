@@ -1,5 +1,3 @@
-import 'package:app_vaquinha_burguer_provider_bloc/core/ui/styles/app_styles.dart';
-import 'package:app_vaquinha_burguer_provider_bloc/core/ui/styles/colors_app.dart';
 import 'package:flutter/material.dart';
 
 class SplashPage extends StatefulWidget {
@@ -21,7 +19,7 @@ class _SplashPageState extends State<SplashPage> {
           Container(),
           ElevatedButton(onPressed: () {}, child: const Text("Teste")),
           TextFormField(
-            decoration: InputDecoration(labelText: 'text'),
+            decoration: const InputDecoration(labelText: 'text'),
           ),
         ],
       ),
