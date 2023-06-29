@@ -18,7 +18,7 @@ class _SplashPageState extends State<SplashPage> {
       body: Column(
         children: [
           Container(),
-          DeliveryButton(label: 'Teste', onPressed: (){}, width: 200),
+          DeliveryButton(label: 'Teste', onPressed: () {}, width: 200),
           TextFormField(
             decoration: const InputDecoration(labelText: 'text'),
           ),
